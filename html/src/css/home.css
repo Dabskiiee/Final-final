@@ -1,0 +1,46 @@
+.howm{
+    background-image: url('../images/bbgg.jpg');
+    filter: brightness(0.95);
+    background-repeat: no-repeat;
+}
+
+.nav_howm{
+    height: 10vh;
+}
+.welcome{
+    
+    position: relative;
+    top: 23vh;
+    left: 5vw;
+    padding: 5px 25px;
+    display:inline-block;
+    font-size: 75px;
+    font-stretch:expanded;
+    font-family: "Zen Dots", sans-serif;
+    color: var(--lighter-color);
+}
+
+.title{
+    display: inline-block;
+    position: relative;
+    top: 55px;
+}
+
+.subheading
+{
+    position: relative;
+    top: 25vh;
+    left: 5.5vw;
+    margin: 5px 25px;
+    display:inline-block;
+    font-size: 15px;
+    font-family: "Zen Dots", sans-serif;
+    color: var(--lighter-color);
+    text-transform: uppercase;
+    
+}
+
+#p{
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+}

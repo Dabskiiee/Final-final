@@ -1,0 +1,164 @@
+:root {
+    --darker-color:#1e1f26;
+    --dark-color:#283655;
+    --light-color:#4d648d;
+    --lighter-color:#d0e1f9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 18rem;
+}
+
+.brand{
+    display: inline-flex;
+    position: relative;
+    top: 15px;
+    left: 150px;
+}
+
+.brand > h3{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    top: 8px;
+    color: var(--lighter-color);
+    font-size: 50px;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.tabs{
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    gap: 90px;
+    margin: -35px 60px;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.links{
+    text-decoration: none;
+    color:var(--lighter-color);
+    transition:0.5s
+}
+.links:hover{
+    text-decoration: none;
+    text-shadow: 2px -2px 10px var(--lighter-color);
+    color:var(--dark-color);
+}
+
+body{
+    animation: transitionIn 1s;
+}
+
+.foot{
+    position:relative;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+    height: 17vh;
+    width:100%;
+    background-color: hsla(215, 46%, 68%, 0.767);
+}
+.socials{
+    position: relative;
+    text-align: right;
+    right: 15px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.epekz{
+    border-radius: 50px;
+    margin: 15px 10px;
+    margin-top: 8px;
+    transition: ease-in-out 1s;
+}
+.sm{
+    height: 40px;
+    width: 40px;
+}
+.away{
+    font-size: 35px;
+    margin-top: 3px;
+}
+.linkzz{
+    position: relative;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.links_linkzz{
+    margin-bottom: 5px;
+    color:rgb(77, 68, 68);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: linear 0.5s;
+}
+
+.links_linkzz:hover{
+    color: var(--lighter-color);
+}
+
+.middle{
+    position: relative;
+    display: flex;
+    top: -15px;
+    left: 75px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#subs{
+    margin: 10px 12px;
+    text-align: center;
+    font-size: 18px;
+    color:var(--lighter-color);
+}
+#fb:hover{
+    background-color: rgb(73, 73, 218);
+}
+
+#ig:hover{
+    background-image: linear-gradient(to top,#515BD4,#DD2A7B,#f58529 );
+}
+
+#yt:hover{
+    background-color: rgb(207, 46, 46);
+}
+
+#clicked{
+    color: var(--dark-color);
+}
+
+#clicked2{
+    color: var(--light-color);
+}
+
+@keyframes transitionIn{
+    From{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@keyframes fade-in{
+    From {
+        scale: .8; opacity: 0;
+    }
+    to{
+        scale: 1; opacity: 1;
+    }
+}
